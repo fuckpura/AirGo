@@ -208,14 +208,14 @@ func ClashMeta(nodes *[]model.Node) string {
 		Name:     "自动选择",
 		Type:     "url-test",
 		Proxies:  nameArr,
-		Url:      "http://www.apple.com/library/test/success.html",
+		Url:      "http://www.gstatic.com/generate_204",
 		Interval: 86400,
 	}
 	var proxyGroup3 = model.ClashProxyGroup{
 		Name:     "故障转移",
 		Type:     "fallback",
 		Proxies:  nameArr,
-		Url:      "http://www.apple.com/library/test/success.html",
+		Url:      "http://www.gstatic.com/generate_204",
 		Interval: 7200,
 	}
 
