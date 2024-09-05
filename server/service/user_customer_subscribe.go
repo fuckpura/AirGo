@@ -203,6 +203,8 @@ func ClashMeta(nodes *[]model.Node) string {
 		Name:    global.Server.Subscribe.SubName,
 		Type:    "select",
 		Proxies: nameArr,
+		Url:      "http://www.gstatic.com/generate_204",
+		Interval: 86400,
 	}
 	var proxyGroup2 = model.ClashProxyGroup{
 		Name:     "自动选择",
